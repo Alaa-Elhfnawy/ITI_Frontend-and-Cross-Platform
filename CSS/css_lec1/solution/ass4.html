@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    body{
+        background-color:cadetblue;
+    }
+    table{
+        background-color:blue;
+        text-align: center;
+        border-spacing: 0;
+        padding:0% 1%;
+        margin: auto;
+       
+    }
+     thead,tfoot{
+        color: white;
+     }
+    #content{
+        height: 150px;
+        width: 100px;
+        background-color:antiquewhite;
+    }
+    #rotate{
+        rotate: 270deg;
+    }
+    tr #tdd{
+        height: 100px;
+        background-color: burlywood;
+        border-right: 2px solid brown ;
+    }
+    #foot{
+       background-color: brown;
+    }
+  </style>
+</head>
+<body>
+    <table>
+       <thead>
+        <tr>
+            <td colspan="2">Header</td>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td id="tdd" ><p id="rotate">Column</p></td>
+            <td id="content">Content</td>
+        </tr>
+       </tbody>
+       <tfoot>
+        <tr><td id="foot" colspan="2">
+            Footer
+        </td></tr>
+       </tfoot>
+    </table>
+</body>
+</html>

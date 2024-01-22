@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #bigDiv{
+            height: 400px;
+            width: 600px;
+            border: 7px solid black;
+            margin: auto;
+            padding: 10px;
+            display: flex;
+        }
+        .lists{
+            border: 3px solid black;
+            height: 100px;
+            width: 500px;
+            padding: 10px;
+            margin:40px 2px 40px ;
+            display: flex;
+            overflow: auto;
+        }
+        #button
+        {
+            align-items: center;
+            /* display: flex;
+            padding: 20px 20px 20px 20px; */
+            margin: 20px 20px 20px 20px;
+        }
+        .highlight
+        {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="bigDiv">
+        <div class="lists">
+            <ul id="leftList">
+                <li>JS</li>
+                <li>Jquery</li>
+                <li>Angular</li>
+                <li>HTML</li>
+            </ul>
+        </div>
+        <div class="lists">
+            <ul id="rightList">
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div id="button">
+            <button type="text" id="moveLeft"><</button>
+            <button type="text" id="moveRight">></button>
+           <pre><h3>Add Course</h3></pre>
+            <input type="text" id="newCourse">
+            <button id="addButtom">add</button>
+        </div>
+    </div>
+    <script src="Functions.js"></script>
+    <script src="consuming3.js"></script>
+</body>
+</html>

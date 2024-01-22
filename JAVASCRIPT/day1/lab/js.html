@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        //Uncaught ReferenceError: number1 is not defined , complete the run , if remove var stil the same error
+        //console.log(number1);
+    </script>
+    <script  src="External.js"></script>
+    <script>
+        //it works , if we remove var -> it works too 
+        //if  we change the value of number 1,2 in develope console tool it doesn't change the real value and if we print it still the old value
+        console.log(number1);
+        //we can't change the value of number 3 in develope console tool cause it's a const value
+       // console.log(number3);
+      //let number2=20;
+      //Uncaught SyntaxError: Identifier 'number2' has already been ,didn't complete the run
+     // console.log(number2);
+     //var number1=100;
+     //value changed to 100
+     //console.log(number1);
+    //  for(let i=0;i<3;i++)
+    //     {
+    //         //let number2=20;
+    //         //it works and print 20 cause it's a block code
+    //         //console.log(number2);
+    //        //var number1=100;
+    //        // it works too cause it's ablock code
+    //        //console.log(number1);
+    //     }
+    //firstName[3]='b';
+    //nothing change
+    //console.log(firstName);
+    </script>
+</head>
+<body>
+    <script>
+        // it works =5.9
+        console.log(number1+number2);
+        //3.9
+        console.log(flag+number2);
+        //it works = alaatrue
+        console.log(firstName+flag);
+        // it works = alaa3
+        console.log(firstName+number1);
+        // 3
+        console.log(number1*flag);
+        //10
+        console.log(10*flag);
+        //NAN
+        console.log(number1/lastName)
+        // alaa abdo hefnawy
+        console.log(firstName+" "+middleName+' '+lastName);
+    </script>
+</body>
+</html>
